@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel=stylesheet type="text/css" href="style.css"> 
+	<title>報名頁面</title>
+	<script type="text/javascript" src="http://gc.kis.scr.kaspersky-labs.com/1B74BD89-2A22-4B93-B451-1C9E1052A0EC/main.js" charset="UTF-8"></script>
+</header>
+<body>
+
+<form action="Registration form">
+姓名(必填):<input type="text" name="name" value="請輸入名字" maxlength="10"  required="required"><br>
+學院(必填):
+<select  required="required">
+  <option value="college of foreign languages">外國語文學院</option>
+  <option value="college of liberal art">文學院</option>
+  <option value="college of international affairs">國際事務學院</option>
+  <option value="college of commnication">傳播學院</option>
+  <option value="college of science">理學院</option>
+  <option value="college of commerce">商學院</option>
+  <option value="college of law">法學院</option>
+  <option value="college of social sciences">社會科學院</option>
+  <option value="college of education">教育學院</option>
+</select><br>
+手機(必填):<input type="number" name="cellphone" value="請輸入手機號碼" maxlength="10"  required="required"><br>
+Email(必填):<input type="email" name="email" value="請輸入電子郵件"  required="required"><br>
+生日(非必填):<input type="date" name="birthday" value="請輸入生日"><br>
+
+<button type="submit" onclick="alert('sent!')">send</button>
+</form>
+
+</body>
+
